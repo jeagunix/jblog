@@ -199,5 +199,6 @@
 	</build>
 	<modules>
 		<module>jblog4</module>
+		<module>jblog3</module>
 	</modules>
 </project>
