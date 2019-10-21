@@ -71,5 +71,12 @@ public class UserController {
 	public String login() {
 		return "user/login";
 	}
+	@RequestMapping(value="/auth", method=RequestMethod.POST)
+	public void auth() {
+	}
+	
+	@RequestMapping(value="/logout", method=RequestMethod.GET)
+	public void logout() {
+	}
 
 }
